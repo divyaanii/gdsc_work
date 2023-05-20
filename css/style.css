@@ -1,0 +1,156 @@
+
+body{
+     background-color: rgb(3, 3, 8);
+}
+#navbar{
+     position: relative;
+}
+#navbar ul{
+     display: flex;
+     font-family: "Baloo Bhai",cursive;
+
+}
+#navbar::before{
+     content:"";
+     background-color: black;
+     position: absolute;
+     height: 100%;
+     width:100%;
+     z-index:-1;
+     opacity: 0.4;
+     
+}
+#navbar ul li{
+     list-style: none;
+     font-size: 1.3rem;
+}
+#navbar ul li a{
+     color: white;
+     display:block;
+     padding: 3px 22px;
+     border-radius: 20px;
+     text-decoration: none;
+
+}
+#navbar ul li a:hover{
+     color: black;
+     background-color: white;
+}
+.right {
+     position: absolute;
+     right: 54px;
+     top: 13px;
+     display: inline-block;
+     border-radius: 20px;
+} .btns {
+     font-family: 'Baloo Bhai', cursive;
+     margin: 0px 9px;
+     background-color: black;
+     color: white;
+     padding: 4px 14px;
+     border: 2px solid grey;
+     border-radius: 10px;
+     font-size: 15px;
+     cursor: pointer;
+ }
+
+
+/* home Section  */
+#home{
+     display: flex;
+     flex-direction: column;
+     padding:3px 200px;
+     height: 428px;
+     justify-content: center;
+     align-items: center;
+}
+#home::before{
+     content:""; 
+     position: absolute;
+     background: url("../main.png") no-repeat center center/cover;
+     height: 80%;
+     width:100%;
+     z-index: -1;   
+}
+#home h1{
+     color:white;
+     text-align: center;
+     font-family: 'Bree Serif',serif;
+}
+#home p{
+     color:white;
+     text-align: center;
+     font-size: 1.5rem;
+     font-family: 'Bree Serif',serif;
+}
+
+
+/* crystal section */
+
+
+.container{
+        border: 2px solid black;
+        margin: 90px 55px;
+        padding: 5px;
+        width: 49%;
+        height: 50vh;
+        border-radius: 28px;
+        background-color: rgb(27, 27, 46);
+        color: white;
+        
+}
+.container h1{
+     text-align: top;
+}
+.collage{
+     display: flex;
+     
+} 
+.image{
+     padding: 50px;
+}
+.divzz{
+     display: flex;
+}
+.image-2{
+     padding: 60px;
+}
+ 
+.container1{
+     border: 2px solid black;
+     margin: 90px 55px;
+     padding: 5px;
+     width: 49%;
+     height: 50vh;
+     border-radius: 28px;
+     background-color: rgb(27, 27, 46);
+     color: white;
+     float: right;
+     position: static;
+     
+}
+
+
+/* utility classes  */
+
+.h-primary{
+     font-size: 3.8rem;
+     padding: 12px;
+}
+.h-secondary{
+     font-size: 2.8rem;
+     padding: 12px;
+}
+.btn{
+     padding: 10px 25px;
+     border:2px solid white;
+     background-color: chocolate;
+     color:white;
+     margin:17px;
+     font-size: 1.5rem;
+     border-radius: 10px;
+     cursor: pointer;
+}
+.centre{
+     text-align: center;
+}
